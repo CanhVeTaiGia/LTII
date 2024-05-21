@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        some(): 1 vài;
+        Duyệt các phần tử trong mảng
+        Kết quả thỏa mãn 1 đk => true
+        ko có phần tử nào thỏa mãn đk => false
+     -->
+</body>
+<script>
+    let num = [1,2,4,6,7,3];
+    let result = num.some((item, index, arr) =>{
+        // console.log(item);
+        // console.log(index);
+        // console.log(arr);
+        return item > 6
+    });
+    console.log(result)
+</script>
+</html>

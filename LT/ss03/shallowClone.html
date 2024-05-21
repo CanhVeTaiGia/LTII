@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        + spread
+        + object.assign
+     -->
+</body>
+<script>
+    const obj = {
+        id: 1,
+        name: "Hoa",
+        address: {
+            city: "HCM"
+        }
+    }
+    let newobj = {...obj};
+    obj.name = "Hồng"
+    obj.address.city = "HCM";
+    console.log(newobj);
+
+</script>
+</html>

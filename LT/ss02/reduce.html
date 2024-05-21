@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Thg đc dùng để tính toán
+            accmulator: biến tích lũy
+     -->
+</body>
+<script>
+    let carts = [
+    {product: "IP5",
+price: 5000,
+quantity: 5},
+    {product: "IP6",
+price: 5000,
+quantity: 5},
+    {product: "IP7",
+price: 5000,
+quantity: 5},
+    ];
+    //for(let i = 0; i < )
+    let reduce = carts.reduce((accmulator, currentValue, arr) =>{
+        return accmulator + (currentValue.price * currentValue.quantity);
+    }, 0)
+    console.log(reduce)
+</script>
+</html>
